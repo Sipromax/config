@@ -1,0 +1,38 @@
+{
+"Version": "2.0.0.",
+"ReleaseNotes": " ",
+"Servers": [
+{
+"Name": "Sipro Max",
+"FLAG": "us.png",
+"ServerIP": "ssh-9.sshstores.net",
+"ServerPort": "442",
+"SSLPort": "443",
+"ProxyIP": "ssh-9.sshstores.net",
+"ProxyPort": "997",
+"sInfo": "Florida",
+"ServerUser": "siko",
+"ServerPass": "kosi"
+}
+],
+"Networks": [
+{
+"Info": "ssl",
+"PInfo": "DIGICEL Haiti",
+"Name": "DIGICEL 100mb",
+"Payload": " ",
+"SNI": "",
+"pInfo": "SSL DIGICEL 100mb",
+"isSSL": "true"
+},
+{
+"Info": "inject",
+"PInfo":cdn.digicelgroup.com "DIGICEL Haiti",
+"Name": "DIGICEL 100mb",
+"Payload": "GET http://cdn.digicelgroup.com HTTP/1.1[crlf]Host: http://cdn.digicelgroup.com[crlf]Connection: keep-alive[crlf]User-Agent: Dalvik/2.1.0 (Linux; U; Android 7.1.2; LM-X210CM Build/N2G47H)[crlf]X-Online-Host: cdn.digicelgroup.com[crlf][crlf]",
+"SNI": " ",
+"pInfo": "SSH Injected Method",
+"isSSL": "false"
+}
+]
+}
